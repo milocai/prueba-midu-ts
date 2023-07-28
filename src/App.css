@@ -1,0 +1,30 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  gap: 4px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  background: -webkit-linear-gradient(#30f5ba, #f7325dd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pointer:hover {
+  color: #f7325d;
+}
